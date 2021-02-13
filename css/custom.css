@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+    color:white;
+}
+
+/* .home-page-slider {
+    background-image : url('../img/home-page.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.home-page-slider .container {
+    height: calc(100vh - 120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.product {
+ margin-bottom: 7rem;
+}
+
+.img-product {
+    position:relative;
+}
+
+.img-product img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.img-product::after {
+    position: absolute;
+    content:"";
+    width: 80%;
+
+    height: 100%;
+    border:5px solid #1c483e;
+    top:-50px;
+    left: 10%;
+}
+
+.product-text {
+    padding-left: 27px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-left: 1px solid #707070;
+}
+
+
+
+.product-text p{
+    margin-bottom: 0;
+}
+
+.product .btn {
+    margin-left: 27px;
+}
+
+.btn-primary {
+    background-color: #1C483E;
+    border-color: #1C483E;
+}
+
+
+/* swiper */
+.swiper-container {
+    width: 100%;
+    height: calc(100vh - 100px);
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-button-prev {
+    color: #1c483e !important;
+  }
+  .swiper-button-next {
+    color: #1c483e  !important;
+  }
+  .partenaires {
+      margin-top: 50px;
+      background-color: #1D1D1D;
+      padding:30px;
+      border:3px solid #1c483e;
+  }
+
+  .col-n2 {
+      margin-left: -16.6666666667%;
+  }
+
+
+
+  .follow-us .col:nth-of-type(1n) {
+    margin-top: 50px;
+}
+
+.follow-us .col:nth-of-type(2n) {
+    margin-top: 00px;
+}
+
+.follow-us .col:nth-of-type(3n) {
+    margin-top: 80px;
+}
+
+.follow-us .col:nth-of-type(4n) {
+    margin-top: 30px;
+}
